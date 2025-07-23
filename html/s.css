@@ -1,0 +1,260 @@
+/* homey-section-1 */
+.homey-section-1 {
+  margin-top: 20px;
+  padding: 2%;
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 40%;
+  background-color: silver;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-image: url(imagelink/comfortable-pillow-sofa.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-position: center;
+}
+.homey-section-1 a {
+  color: black;
+  margin: 15px;
+  text-decoration: none;
+}
+.homey-section-1 a:hover {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+  opacity: 40%;
+}
+.homey-section-1 img {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+/* home */
+.home-section-1 {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+  margin-top: 20px;
+  background-color: antiquewhite;
+  border: 2px solid antiquewhite;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+  margin: 0%;
+  margin-left: 40px;
+  gap: 5px;
+}
+.home-section-1 img {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+}
+.home-section-1 p {
+  text-decoration: line-through;
+  font-size: 20px;
+}
+.home-section-1 h6 {
+  font-size: 25px;
+  margin: 0%;
+}
+.home-section-1 button {
+  color: white;
+  background-color: black;
+  font-style: italic;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.home-section-1 button:hover {
+  color: black;
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.home-section-1 h1 {
+  font-size: 20px;
+}
+
+/* home */
+.home-section-2 {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+  margin-top: 20px;
+  background-color: antiquewhite;
+  border: 2px solid antiquewhite;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+  margin: 0%;
+  margin-left: 40px;
+  gap: 20px;
+  margin-top: 25px;
+}
+.home-section-2 img {
+  display: flex;
+  flex-direction: column;
+  width: 205px;
+}
+.home-section-2 p {
+  text-decoration: line-through;
+  font-size: 20px;
+}
+.home-section-2 h6 {
+  font-size: 25px;
+  margin: 0%;
+}
+.home-section-2 button {
+  color: white;
+  background-color: black;
+  font-style: italic;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.home-section-2 button:hover {
+  color: black;
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.home-section-2 h1 {
+  font-size: 20px;
+}
+
+/* h2 */
+h2 {
+  font-size: 70px;
+  text-align: center;
+  margin: 10%;
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  padding: 10%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 40px;
+  background: linear-gradient(black, white);
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 5px;
+}
+.row label {
+  font-weight: bold;
+  font-size: 25px;
+}
+.row input {
+  width: 25rem;
+  height: 2rem;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+h3 {
+  font-size: 50px;
+}
+button {
+  margin-top: 30px;
+  font-size: 25px;
+  color: black;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+button:hover {
+  color: antiquewhite;
+  background-color: black;
+  transition: 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+}
+
+/*  */
+.cart-descp {
+  display: flex;
+  align-items: center;
+}
+.cart-descp h4 {
+  margin-left: 30px;
+  font-size: 20px;
+}
+/* footer */
+.footer{
+  display: flex;
+  /* flex-direction: row; */
+  background-color: black;
+  border-bottom: 2px solid yellow;
+}
+.section-c {
+  margin-top: 60px;
+  border-top: 2px solid black;
+  margin-top: 60px;
+  width: 30%;
+  
+}
+.section-c img {
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.section-c p {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+
+.section-d  {
+  width: 30%;
+}
+.section-d h1 {
+  color: aliceblue;
+}
+.section-d a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.section-d a:hover {
+color: yellow;
+transition: 0.3s ease;
+}
+.section-e {
+  width: 30%;
+}
+.section-e p {
+  color: whitesmoke;
+}
+.section-e h1 {
+  color: whitesmoke;
+}
+.section-f {
+  width: 30%;
+}
+.section-f h1 {
+  color: whitesmoke;
+}
+.section-f p {
+  color: whitesmoke;
+}
+/* hover */
+.the-hover-button button {
+  color: aqua;
+  background-color: black;
+}

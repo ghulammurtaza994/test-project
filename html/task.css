@@ -1,0 +1,47 @@
+body {
+  background-color: gray;
+}
+h1{
+  background-color: silver;
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  font-size: 70px;
+} 
+.my-second-ard {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: goldenrod;
+  text-align: center;
+  color: solid rgb(255, 255, 255);
+  font-size: 15px;
+}
+.my-second-ard p{
+  margin: 4px;
+  font-size: 15px;
+  font-style: italic;
+}
+.my-second-ard button {
+  background-color:black;
+  font-size: 20px;
+  font-style: italic;
+  cursor: pointer;color: aliceblue;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease;
+}
+.my-second-ard button:hover{
+  background-color: white;
+  color: black;
+  box-shadow: o.8px 16px rgba(0, 0,0, 2);
+}
+.mysecondproject {
+  display: flex;
+  margin: 5%;
+  gap: 2%;
+}
+.myth

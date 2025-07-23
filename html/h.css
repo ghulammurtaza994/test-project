@@ -1,0 +1,362 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(to right, yellow, white, black);
+}
+.container p {
+  text-align: center;
+  font-size: 70px;
+}
+.container h6 {
+  text-align: center;
+}
+body {
+  background-color: wheat;
+}
+h2 {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 0%;
+  padding-left: 7%;
+  padding-right: 7%;
+  font: size 180%;
+}
+h6 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10%;
+  color: black;
+}
+.my-second-card {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  border: 2px solid black;
+  text-align: center;
+  background-color: white;
+  padding: 1%;
+}
+.my-second-card button {
+  color: white;
+  background-color: black;
+  font-style: italic;
+  font-size: large;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.my-second-card button:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.my-third-project {
+  display: flex;
+  margin: 5%;
+  gap: 5%;
+}
+.my-second-card p {
+  margin: 5%;
+}
+.my-third-card {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  border: 2px solid black;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 1%;
+}
+.my-third-card button {
+  color: white;
+  background-color: black;
+  font-style: italic;
+  font-size: large;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.my-third-card button:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.my-fourth-project {
+  display: flex;
+  margin: 5%;
+  gap: 5%;
+}
+.my-third-card p {
+  margin: 5%;
+}
+.my-fourth-card {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  border: 2px solid black;
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 1%;
+}
+.my-fourth-card button {
+  color: white;
+  background-color: black;
+  font-style: italic;
+  font-size: large;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.my-fourth-card button:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+.my-fifth-project {
+  display: flex;
+  margin: 5%;
+  gap: 5%;
+}
+.my-fourth-card p {
+  margin: 5%;
+}
+.homey {
+  display: flex;
+  border-bottom: 2px solid white;
+  justify-content: right;
+  text-align: right;
+  font-size: 10px;
+  color: white;
+  gap: 20px;
+  padding-bottom: 5px;
+}
+
+.homey a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: black;
+  border-bottom: 3px solid wheat;
+  margin-bottom: 5px;
+}
+
+.homey a:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.homey-1 {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.homey-1 a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  background-color: black;
+}
+
+.homey-1 a:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.homey-2 {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.homey-2 a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  background-color: black;
+}
+h5 {
+  text-align: center;
+  font-size: 70px;
+}
+.homey-2 a:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+.homey-3 {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.homey-3 a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  background-color: black;
+}
+.homey-3 a:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  margin-top: 20% solid white;
+  margin-bottom: 20px solid white;
+  padding: 15px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.footer .section-b {
+  background-color: black;
+  margin-left: 5px;
+  margin-right: 5%;
+  border-radius: 40px;
+  width: 10px;
+  font-size: 0%;
+}
+.footer .section-11 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+.footer img {
+  width: 120px;
+}
+.footer.section-22 {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  gap: 10px;
+  font-size: 30px;
+}
+.footer .section-22 a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s ease;
+}
+.footer .section-22 a:hover {
+  color: white;
+  background-color: black;
+}
+.footer .section-33 {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  width: 30%;
+  margin-left: 10%;
+  gap: 2%;
+}
+.print-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+th {
+  color: black;
+  background-color: white;
+}
+td {
+  color: black;
+  background-color: white;
+
+  padding: 4px;
+}
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  margin-top: 7rem;
+  background: linear-gradient(white, yellow, red, orange, black);
+  gap: 20px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+h1 {
+  text-align: left;
+}
+.coulmn {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.coulmn input {
+  width: 30%;
+  height: 25px;
+}
+.coulmn label {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: large;
+}
+/* hover */
+.the-hover-button {
+  align-items: center;
+  align-content: center;
+}
+.the-hover-button button {
+  color: antiquewhite ;
+  margin-top: 25px;
+  font-size: 20px;
+  background-color: black;
+  transition: 2s;
+}
+.the-hover-button button:hover {
+  color: yellow;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.my-animated-paragraph {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  color: yellow ;
+  animation: 3s colorchange infinite;
+}
+@keyframes colorchange {
+  0% {color:blue}
+  100% {color:black}
+}

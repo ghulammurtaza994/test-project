@@ -1,0 +1,58 @@
+body {
+  background-color: gray;
+}
+button {
+  background-color: silver;
+}
+h1 {
+  background-color: white;
+}
+h5 {
+  background-color: aquamarine;
+}
+h3 {
+  background-color: black;
+}
+h4 {
+  background-color: blue;
+}
+.my-first-card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 15px;
+    background-color: rgb(76, 0, 255);
+    border: 2px solid black;
+    text-align: center;
+}
+.my-first-card img{
+    width: 100%;
+border-radius: 5px;
+}
+.my-first-image {
+    width: 100%;
+border-radius: 5px;
+}
+.my-first-card p {
+    color: rgb(43, 226, 98);
+    margin: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.first-project{
+    display: flex;
+    margin: 5%;
+    gap: 2%;
+}
+.first-project button{
+    background-color: brown;
+    font-size: 20px;
+    cursor: pointer;
+    font-style: oblique;
+}
+.first-project button:hover{
+    background-color: blueviolet;
+    color: blue;
+    
+}

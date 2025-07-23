@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}
+navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.left content {
+    display: flex;
+}
+.left-content-img{
+    width: 40%;
+}
+.navbar right-content {
+    color: green;
+}
