@@ -294,15 +294,26 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+table {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 2px 5px  rgba(0, 0, 0, 0.8)
+}
+tr {
+  border-radius: 10px;
+}
 th {
   color: black;
   background-color: white;
+  border-radius: 4px;
+  padding: 4px;
 }
 td {
   color: black;
   background-color: white;
-
   padding: 4px;
+  border-radius: 4px;
+  text-align: center;
 }
 /* form */
 form {
@@ -310,7 +321,7 @@ form {
   flex-direction: column;
   padding: 3rem;
   margin-top: 7rem;
-  background: linear-gradient(white, yellow, red, orange, black);
+  background: linear-gradient(white, black);
   gap: 20px;
   border: 2px solid black;
   border-radius: 7px;
@@ -343,6 +354,19 @@ h1 {
   font-size: 20px;
   background-color: black;
   transition: 2s;
+  animation: 5s colorchance infinite; 
+}
+@keyframes colorchance {
+  0% {color:red}
+  10% {color:orange}
+  20% {color:blue}
+  30% {color:purple}
+  40% {color:green}
+  60% {color:brown}
+  70% {color:plum}
+  80% {color:teal}
+  90% {color:maroon}
+  100% {color:khaki}
 }
 .the-hover-button button:hover {
   color: yellow;
