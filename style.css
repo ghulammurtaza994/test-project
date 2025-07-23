@@ -1,0 +1,31 @@
+body{
+    background-color: aliceblue;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div{
+    /* margin: 5rem; */
+    padding: 5rem;
+    background-color: bisque;
+    gap: 15px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    padding: 14px;
+    transition: 1s;
+    cursor: pointer;
+    margin-right: 15px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
