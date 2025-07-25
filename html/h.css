@@ -1,7 +1,10 @@
 .container {
   width: 100%;
-  margin: 0 auto;
-  background: linear-gradient(to right, yellow, white, black);
+  margin-top: 50px;
+  background: linear-gradient(yellow, green);
+  border-radius: 30px;
+  padding-bottom: 3px;
+  padding-top: 5px;
 }
 .container p {
   text-align: center;
@@ -11,11 +14,33 @@
   text-align: center;
 }
 body {
-  background-color: wheat;
+  background-color: white;
+}
+.anim{
+  padding: 15px 25px;
+  background-color: black;
+  margin-bottom: 5rem;
 }
 h2 {
   text-align: center;
-  background-color: aliceblue;
+  animation: infinite 15s colorface;
+}
+@keyframes colorface {
+  0% {
+    color: white;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: peru;
+  }
+  100% {
+    color: black;
+  }
 }
 
 h4 {
@@ -31,123 +56,65 @@ h6 {
   margin-bottom: 10%;
   color: black;
 }
+/* cards */
+
+.my-third-project {
+  align-items: center;
+}
 .my-second-card {
   display: flex;
   flex-direction: column;
-  width: 10%;
-  border: 2px solid black;
+  width: 20%;
   text-align: center;
-  background-color: white;
+  height: 10%;
   padding: 1%;
 }
-.my-second-card button {
-  color: white;
-  background-color: black;
-  font-style: italic;
-  font-size: large;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  transition: 0.3s ease;
-}
-.my-second-card button:hover {
-  background-color: aliceblue;
-  color: black;
-  cursor: pointer;
-}
+
 .my-third-project {
   display: flex;
   margin: 5%;
   gap: 5%;
 }
-.my-second-card p {
-  margin: 5%;
-}
-.my-third-card {
-  display: flex;
-  flex-direction: column;
-  width: 10%;
-  border: 2px solid black;
-  text-align: center;
-  background-color: whitesmoke;
-  padding: 1%;
-}
-.my-third-card button {
-  color: white;
-  background-color: black;
-  font-style: italic;
-  font-size: large;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  transition: 0.3s ease;
-}
-.my-third-card button:hover {
-  background-color: aliceblue;
-  color: black;
-  cursor: pointer;
-}
-.my-fourth-project {
-  display: flex;
-  margin: 5%;
-  gap: 5%;
-}
-.my-third-card p {
-  margin: 5%;
-}
-.my-fourth-card {
-  display: flex;
-  flex-direction: column;
-  width: 10%;
-  border: 2px solid black;
-  text-align: center;
-  background-color: whitesmoke;
-  padding: 1%;
-}
-.my-fourth-card button {
-  color: white;
-  background-color: black;
-  font-style: italic;
-  font-size: large;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  transition: 0.3s ease;
-}
-.my-fourth-card button:hover {
-  background-color: aliceblue;
-  color: black;
-  cursor: pointer;
-}
+
 .my-fifth-project {
   display: flex;
   margin: 5%;
   gap: 5%;
 }
-.my-fourth-card p {
-  margin: 5%;
-}
+
 .homey {
   display: flex;
-  border-bottom: 2px solid white;
-  justify-content: right;
-  text-align: right;
+  border-bottom: 2px solid black;
   font-size: 10px;
   color: white;
-  gap: 20px;
+  gap: 30px;
   padding-bottom: 5px;
+  justify-content: center;
+  justify-items: center;
 }
 
 .homey a {
-  color: white;
-  text-decoration: none;
-  border: 2px solid black;
-  padding: 5px;
-  background-color: black;
-  border-bottom: 3px solid wheat;
-  margin-bottom: 5px;
-}
-
-.homey a:hover {
-  background-color: aliceblue;
   color: black;
+  text-decoration: none;
+
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.homey img {
+  width: 10%;
+  size: 30%;
+}
+.homey .TEXTURES-LOGO {
+  width: 100%;
+}
+.homey .link-section {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+}
+.homey a:hover {
+  color: yellow;
   cursor: pointer;
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -289,15 +256,28 @@ h5 {
   margin-left: 10%;
   gap: 2%;
 }
+.footer .section-33 h3 {
+  font-size: 30px;
+}
 .print-page {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* table */
+
+.the-table {
+  align-items: center;
+}
 table {
   background-color: black;
   border-radius: 10px;
-  box-shadow: 2px 5px  rgba(0, 0, 0, 0.8)
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
+  margin-bottom: 80px;
+  align-items: center;
+  margin-left: 30%;
 }
 tr {
   border-radius: 10px;
@@ -324,15 +304,17 @@ form {
   background: linear-gradient(white, black);
   gap: 20px;
   border: 2px solid black;
-  border-radius: 7px;
+  border-radius: 90px;
 }
 h1 {
-  text-align: left;
+  text-align: center;
 }
 .coulmn {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-left: 45%;
+  size: 40px;
 }
 .coulmn input {
   width: 30%;
@@ -342,45 +324,4 @@ h1 {
   font-weight: bold;
   text-decoration: underline;
   font-size: large;
-}
-/* hover */
-.the-hover-button {
-  align-items: center;
-  align-content: center;
-}
-.the-hover-button button {
-  color: antiquewhite ;
-  margin-top: 25px;
-  font-size: 20px;
-  background-color: black;
-  transition: 2s;
-  animation: 5s colorchance infinite; 
-}
-@keyframes colorchance {
-  0% {color:red}
-  10% {color:orange}
-  20% {color:blue}
-  30% {color:purple}
-  40% {color:green}
-  60% {color:brown}
-  70% {color:plum}
-  80% {color:teal}
-  90% {color:maroon}
-  100% {color:khaki}
-}
-.the-hover-button button:hover {
-  color: yellow;
-  cursor: pointer;
-  text-decoration: underline;
-}
-.my-animated-paragraph {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 50px;
-  color: yellow ;
-  animation: 3s colorchange infinite;
-}
-@keyframes colorchange {
-  0% {color:blue}
-  100% {color:black}
 }
