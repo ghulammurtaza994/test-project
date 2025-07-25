@@ -16,7 +16,7 @@
 body {
   background-color: white;
 }
-.anim{
+.anim {
   padding: 15px 25px;
   background-color: black;
   margin-bottom: 5rem;
@@ -92,12 +92,11 @@ h6 {
   justify-content: space-between;
 }
 
-
 .TEXTURES-LOGO {
   width: 100%;
 }
 
- .links-section {
+.links-section {
   display: flex;
   flex-direction: row;
   gap: 22px;
@@ -247,8 +246,7 @@ h5 {
   transition: 0.5s ease;
 }
 .footer .section-22 a:hover {
-  color: white;
-  background-color: black;
+  color: green;
 }
 .footer .section-33 {
   display: flex;
@@ -326,4 +324,53 @@ h1 {
   font-weight: bold;
   text-decoration: underline;
   font-size: large;
+}
+
+@media (max-width: 768px) {
+  /* .TEXTURES-LOGO {
+    width: 70%;
+  } 
+  .links-section {
+    width: 50px;
+
+  } */
+  .homey {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .TEXTURES-LOGO {
+    text-align: center;
+  }
+  }
+  .links-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .my-third-project{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .my-fifth-project {
+     display: flex;
+    flex-direction: column;
+  }
+  .my-second-card {
+  width: 100%;
+  }
+  form{
+    padding: 0;
+  }
+  table{
+    margin: 0;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .section-11{
+    width: 100%;
+  }
 }
