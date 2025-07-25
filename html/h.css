@@ -89,30 +89,32 @@ h6 {
   color: white;
   gap: 30px;
   padding-bottom: 5px;
-  justify-content: center;
-  justify-items: center;
+  justify-content: space-between;
 }
 
-.homey a {
+
+.TEXTURES-LOGO {
+  width: 100%;
+}
+
+ .links-section {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  width: 100%;
+}
+.links-section a {
   color: black;
   text-decoration: none;
 
   margin-bottom: 5px;
   font-size: 18px;
 }
-.homey img {
+.TEXTURES-LOGO img {
   width: 10%;
   size: 30%;
 }
-.homey .TEXTURES-LOGO {
-  width: 100%;
-}
-.homey .link-section {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-  width: 100%;
-}
+
 .homey a:hover {
   color: yellow;
   cursor: pointer;
