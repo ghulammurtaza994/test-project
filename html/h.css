@@ -326,6 +326,13 @@ h1 {
   font-size: large;
 }
 
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   /* .TEXTURES-LOGO {
     width: 70%;
@@ -342,17 +349,18 @@ h1 {
   .TEXTURES-LOGO {
     text-align: center;
   }
-  }
+  
   .links-section {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  .my-third-project{
+  .my-third-project {
     display: flex;
     flex-direction: column;
-   
+
   }
+
   .my-fifth-project {
      display: flex;
     flex-direction: column;
