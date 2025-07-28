@@ -333,14 +333,8 @@ h1 {
 
 
 
-@media (max-width: 768px) {
-  /* .TEXTURES-LOGO {
-    width: 70%;
-  } 
-  .links-section {
-    width: 50px;
-
-  } */
+@media (max-width: 768px) {}
+  
   .homey {
     display: flex;
     flex-direction: column;
@@ -349,7 +343,7 @@ h1 {
   .TEXTURES-LOGO {
     text-align: center;
   }
-  
+
   .links-section {
     display: flex;
     flex-direction: column;

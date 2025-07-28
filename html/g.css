@@ -1,0 +1,95 @@
+body {
+  background-color: maroon;
+}
+.profile-name {
+  display: flex;
+  flex-direction: ;
+}
+/* container */
+
+.container {
+  display: flex;
+  border: 2px solid white;
+  margin-top: 90px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+h1 {
+  margin-left: 40px;
+  margin-right: 430px;
+}
+a {
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 20px;
+  color: black;
+  transition: o.5s ease;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: red;
+  transition: 0.5s ease;
+}
+
+/* hello */
+.hello {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* image */
+
+.profile-link {
+  margin-right: 450px;
+  margin-left: 20px;
+  padding-bottom: 50px;
+}
+
+img {
+  display: flex;
+  margin-top: 70px;
+  border-radius: 500px;
+  width: 200px;
+  margin-left: 30px;
+}
+.profile-link h2 {
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin-top: 50px;
+  color: antiquewhite;
+}
+.profile-link p {
+  text-align: center;
+  margin-top: 35px;
+  color: antiquewhite;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+/* description */
+
+.description-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  
+}
+.description-area h1 {
+  margin-right: 10px;
+  color: white;
+}
+
+.description-area p {
+  width: 500px;
+  color: antiquewhite;
+  font-weight: bold;
+  margin-left: 40px;
+}
