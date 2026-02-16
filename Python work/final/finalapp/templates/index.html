@@ -1,0 +1,195 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome - Our School</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Our School</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#courses" class="nav-link">Courses</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Excellence in Education</h1>
+        <p>Shaping Future Leaders Through Quality Education</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary">Explore More</button>
+          <button class="btn btn-secondary">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2>Why Choose Us</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-chalkboard-user"></i>
+            </div>
+            <h3>Expert Faculty</h3>
+            <p>Highly qualified and experienced teachers dedicated to student success</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <h3>Modern Facilities</h3>
+            <p>State-of-the-art classrooms and technology labs</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <h3>Rich Curriculum</h3>
+            <p>Comprehensive courses designed for holistic development</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <h3>Excellence Track Record</h3>
+            <p>Consistent high academic achievements and awards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About Our Institution</h2>
+            <p>Founded with a vision to provide quality education, our school has been at the forefront of academic excellence for over two decades. We believe in nurturing talent and building character through a balanced approach to learning.</p>
+            <ul class="about-list">
+              <li><i class="fas fa-check"></i> CBSE Affiliated Institution</li>
+              <li><i class="fas fa-check"></i> 500+ Students</li>
+              <li><i class="fas fa-check"></i> 50+ Faculty Members</li>
+              <li><i class="fas fa-check"></i> International Standard Facilities</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <div class="placeholder-image">
+              <i class="fas fa-school"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+      <div class="container">
+        <h2>Our Courses</h2>
+        <div class="courses-grid">
+          <div class="course-card">
+            <div class="course-icon"><i class="fas fa-child"></i></div>
+            <h3>Primary Classes</h3>
+            <p>Classes I - V</p>
+          </div>
+          <div class="course-card">
+            <div class="course-icon"><i class="fas fa-book-open"></i></div>
+            <h3>Secondary Classes</h3>
+            <p>Classes VI - X</p>
+          </div>
+          <div class="course-card">
+            <div class="course-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Senior Secondary</h3>
+            <p>Classes XI - XII</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3>20+</h3>
+            <p>Years of Excellence</p>
+          </div>
+          <div class="stat-item">
+            <h3>500+</h3>
+            <p>Students</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>Expert Teachers</p>
+          </div>
+          <div class="stat-item">
+            <h3>95%</h3>
+            <p>Pass Percentage</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address</h4>
+                <p>123 Education Street, City, State 000000</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+91 XXXXXX XXXX</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>info@ourschool.edu</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Our School. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{% static 'js/results.js' %}"></script>
+  </body>
+</html>
