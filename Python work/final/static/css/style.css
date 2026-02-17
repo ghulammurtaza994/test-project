@@ -537,4 +537,128 @@ body {
   .stats-grid {
     grid-template-columns: 1fr;
   }
+
+  .management-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Management Section */
+.management {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.management h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.management-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.management-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 102, 204, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.management-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 102, 204, 0.2);
+  border-color: var(--primary-color);
+}
+
+.management-icon {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.management-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+
+.management-card p {
+  color: #666;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.management-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid var(--primary-color);
+}
+
+.management-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 102, 204, 0.3);
+}
+
+@media (max-width: 768px) {
+  .management {
+    padding: 60px 20px;
+  }
+
+  .management h2 {
+    font-size: 2rem;
+  }
+
+  .management-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .management-card {
+    padding: 30px 20px;
+  }
+
+  .management-icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .stat-item h3 {
+    font-size: 2rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .management-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .management-card {
+    padding: 20px 15px;
+  }
+
+  .management-icon {
+    font-size: 2rem;
+  }
+
+  .management-card h3 {
+    font-size: 1.3rem;
+  }
 }
