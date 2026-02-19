@@ -16,20 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from finalapp import views
-from rest_framework import routers
-from finalapp.views import InstructorViewSet, CourseViewSet, StudentViewSet
-
-# Create router for APIs
-router = routers.DefaultRouter()
-router.register(r'instructors', InstructorViewSet)
-router.register(r'courses', CourseViewSet)
-router.register(r'students', StudentViewSet)
 
 urlpatterns = [
-    path('admin/', admin.site.urls), 
-    path('', views.index, name='index'),
-    path('dashboard', views.instructors_view, name='dashboard'),
-    path('', include(router.urls)),  # API routes
-    path('myapp/', include('finalapp.urls')),  # Other app routes
+    path('admin/', admin.site.urls),
+    path('', include('finalapp.urls')),  # Include app URLs
 ]

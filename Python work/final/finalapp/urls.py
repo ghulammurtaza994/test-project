@@ -10,12 +10,13 @@ router.register(r'instructors', InstructorViewSet)
 
 router.register(r'courses', views.CourseViewSet)
 
-
+router.register(r'students', views.StudentViewSet)
 
 urlpatterns = [
 
     path('', views.index, name='index'),   
     path('home', views.home, name='home'),
+    path('dashboard', views.instructors_view, name='instructors'),
     path('', include(router.urls)),
     
     

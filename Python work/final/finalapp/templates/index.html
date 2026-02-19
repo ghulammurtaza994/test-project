@@ -1,4 +1,5 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,14 +15,14 @@
       <div class="navbar-container">
         <div class="logo">
           <i class="fas fa-graduation-cap"></i>
-          <span>Our School</span>
+          <span>Unique school</span>
         </div>
         <ul class="nav-menu">
           <li><a href="#home" class="nav-link active">Home</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
           <li><a href="#courses" class="nav-link">Courses</a></li>
           <li><a href="#contact" class="nav-link">Contact</a></li>
-          <li><a href="/dashboard" class="nav-link" style="background-color: rgba(255,255,255,0.3); padding: 0.5rem 1rem; border-radius: 4px;">📊 Dashboard</a></li>
+          <li><a href="/dashboard" class="nav-link" style="background-color: rgba(255,255,255,0.3); padding: 0.5rem 1rem; border-radius: 4px;">📊 Dashboard</a></li>    
         </ul>
       </div>
     </nav>
@@ -83,9 +84,9 @@
             <h2>About Our Institution</h2>
             <p>Founded with a vision to provide quality education, our school has been at the forefront of academic excellence for over two decades. We believe in nurturing talent and building character through a balanced approach to learning.</p>
             <ul class="about-list">
-              <li><i class="fas fa-check"></i> CBSE Affiliated Institution</li>
-              <li><i class="fas fa-check"></i> 500+ Students</li>
-              <li><i class="fas fa-check"></i> 50+ Faculty Members</li>
+              <li><i class="fas fa-check"></i> (SSC)(HSSC) Institution</li>
+              <li><i class="fas fa-check"></i> <span class="counter" data-target="500">0</span>+ Students</li>
+              <li><i class="fas fa-check"></i> <span class="counter" data-target="30">0</span>+ Faculty Members</li>
               <li><i class="fas fa-check"></i> International Standard Facilities</li>
             </ul>
           </div>
@@ -126,31 +127,31 @@
     <section class="management">
       <div class="container">
         <h2>📊 School Management System</h2>
-        <p style="text-align: center; margin-bottom: 40px; color: #666; font-size: 1.1em;">آسانی سے اپنے اسکول کو منیج کریں</p>
+        <p style="text-align: center; margin-bottom: 40px; color: #666; font-size: 1.1em;">Easily Manage Your School</p>
         <div class="management-grid">
           <div class="management-card">
             <div class="management-icon">
               <i class="fas fa-chalkboard-user"></i>
             </div>
             <h3>👨‍🏫 Instructors</h3>
-            <p>اساتذہ کی معلومات منیج کریں</p>
-            <a href="/dashboard?tab=instructors" class="management-btn">اساتذہ دیکھیں</a>
+            <p>Manage Instructor Information</p>
+            <a href="/dashboard?tab=instructors" class="management-btn">View Instructors</a>
           </div>
           <div class="management-card">
             <div class="management-icon">
               <i class="fas fa-book"></i>
             </div>
             <h3>📖 Courses</h3>
-            <p>تمام کورسز کو منیج کریں</p>
-            <a href="/dashboard?tab=courses" class="management-btn">کورسز دیکھیں</a>
+            <p>Manage All Courses</p>
+            <a href="/dashboard?tab=courses" class="management-btn">View Courses</a>
           </div>
           <div class="management-card">
             <div class="management-icon">
               <i class="fas fa-graduation-cap"></i>
             </div>
             <h3>👨‍🎓 Students</h3>
-            <p>طالب علموں کی معلومات منیج کریں</p>
-            <a href="/dashboard?tab=students" class="management-btn">طالب علم دیکھیں</a>
+            <p>Manage Student Information</p>
+            <a href="/dashboard?tab=students" class="management-btn">View Students</a>
           </div>
         </div>
       </div>
@@ -226,5 +227,6 @@
     </footer>
 
     <script src="{% static 'js/results.js' %}"></script>
+    <script src="{% static 'js/counter.js' %}"></script>
   </body>
 </html>
